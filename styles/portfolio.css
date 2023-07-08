@@ -155,3 +155,27 @@ main{
 .btn-gap{
     margin-top: 50px;
 }
+/* footer related styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFF8F3;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"],input[type="email"], textarea{
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    padding: 18px 30px;
+    /* outline: none; */
+    border: none;
+    resize: none;
+}
+.social-link a{
+    margin-right: 25px;
+}
