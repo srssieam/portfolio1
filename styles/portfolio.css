@@ -182,3 +182,84 @@ footer{
 .fa-solid{
     margin-right: 10px;
 }
+
+/*responsive styles */
+@media screen and (max-width: 576px){
+    .header{
+        background-image: none;
+    }
+    .skill-container, .resume-container, footer, .about-info-container, .banner, nav, nav > ul{
+        flex-direction: column;
+    }
+    .what>p , nav, .about, .resume{
+        margin: 10px;
+    }
+    .banner-title, .banner-greeting{
+        font-size: 30px;
+    }
+    footer, .about, .banner{
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"],input[type="email"],textarea{
+        width: 80%;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    nav > ul {
+        gap: 10px;
+    }
+    footer{
+        margin-top: 10px;
+    }
+ 
+}
+@media screen and (min-width: 576px) and (max-width:960px){
+    footer, .banner{
+        padding: 10px;
+    }
+        .header {
+            background-image: none;
+        }
+    nav{
+        margin: 10px 20px;
+    }
+    nav > ul > li {
+        margin: 10px;
+        
+    }
+        .contact input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 70%;
+        }
+        .btn-primary{
+            margin-bottom: 15px;
+        }
+        .skill-container{
+            
+            flex-direction: column;
+        }
+        .skill{
+            margin: 20px auto;
+            width: 70%;
+            text-align: center;
+        }
+        .profile-pic{
+            width: 50%;
+        }
+        .about-info-container{
+            flex-direction: column;
+        }
+                .banner-title,
+                .banner-greeting {
+                    font-size: 35px;
+                }
+
+}
